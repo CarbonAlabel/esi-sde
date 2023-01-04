@@ -1,0 +1,30 @@
+{
+  "name": "esi-sde",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-modules --no-warnings index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarbonAlabel/esi-sde.git"
+  },
+  "keywords": [
+    "esi",
+    "eve",
+    "eveonline",
+    "sde"
+  ],
+  "author": "Carbon Alabel <carbonalabel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CarbonAlabel/esi-sde/issues"
+  },
+  "homepage": "https://github.com/CarbonAlabel/esi-sde#readme",
+  "dependencies": {
+    "@types/node": "^12.7.5",
+    "esi-request": "1.0.0"
+  }
+}
